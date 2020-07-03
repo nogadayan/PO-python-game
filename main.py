@@ -45,6 +45,11 @@ def play(word):
             else:
                 guessed = True
                 word_completion = word
+        else:
+            print("Not a valid guess.")
+        print(display_hangman(tries))
+        print(word_completion)
+        print("\n")
 
 
 

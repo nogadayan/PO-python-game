@@ -132,3 +132,7 @@ def main():
     while input("Play Again? (Y/N) ").upper() == "Y":
         word = get_word()
         play(word)
+
+
+if __name__ == "__main__":
+    main()

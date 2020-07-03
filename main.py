@@ -6,3 +6,9 @@ def get_word():
     word = random.choice(word_list)
     return word.upper()
 
+def play(word):
+    word_completion = "-" * len(word)
+    guessed = False
+    guessed_letters = []
+    guessed_words = []
+    tries = 6

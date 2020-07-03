@@ -12,6 +12,10 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
+    print("Let's play Hangman!")
+    print(display_hangman(tries))
+    print(word_completion)
+    print("\n")
 
 
 
